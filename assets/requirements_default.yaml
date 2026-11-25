@@ -1,0 +1,30 @@
+# Standard Commercial General Contractor (GC) Default COI Requirements Profile
+# Update certificate_holder_name and certificate_holder_address to match your executed contract.
+
+profile_name: "Standard Commercial GC Default"
+expiry_warning_days: 30
+
+certificate_holder_name: "Northgate Property Group LLC"
+certificate_holder_address: "100 Commerce Plaza, Suite 400, Chicago, IL 60601"
+
+limits:
+  gl_each_occurrence_min: 1000000
+  gl_general_aggregate_min: 2000000
+  gl_products_comp_op_agg_min: 2000000
+  gl_aggregate_basis_required: "PROJECT"
+  auto_combined_single_limit_min: 1000000
+  umbrella_each_occurrence_min: 0
+  wc_statutory_required: true
+  el_each_accident_min: 1000000
+  el_disease_ea_employee_min: 1000000
+  el_disease_policy_limit_min: 1000000
+
+endorsements:
+  require_additional_insured: true
+  require_primary_non_contributory: true
+  require_waiver_of_subrogation: true
+  require_endorsement_attachments: true
+  required_endorsement_forms:
+    - "CG 20 10"
+    - "CG 20 37"
+    - "CG 24 04"
